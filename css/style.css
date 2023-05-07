@@ -456,7 +456,7 @@ a:hover {
   font-weight: 700;
 }
 
-/*****/
+/****/
 .repairtwo {
   font-family: "Sofia", sans-serif;
   padding-left: 100px;
@@ -476,15 +476,11 @@ h2 .title-inf {
   color: #f0f0f0;
 }
 
-.artikel{
-  margin-left: 30px;
-}
-
 ul .booking-card {
   position: relative;
   width: 300px;
   display: flex;
-  flex: 0 0 300px;
+  flex: 0 0 270px;
   flex-direction: column;
   margin: 10px;
   margin-bottom: 30px;
