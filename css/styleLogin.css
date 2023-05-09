@@ -9,7 +9,7 @@
   margin: 0 auto;
 }
 .container-login100 {
-  width: 100%;
+  width: 100%;  
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -35,7 +35,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .login_topimg {
   border-top-left-radius: 5px;
@@ -44,7 +44,7 @@
   min-height: 185px;
   position: relative;
   background: #91b3d1
-    url(https://image.freepik.com/free-vector/cyber-data-security-online-concept-illustration-internet-security-information-privacy-protection_1150-37330.jpg)
+    url(/img/bgLog.png)
     no-repeat;
   background-size: auto;
   background-position: center;
