@@ -1,3 +1,10 @@
+ScrollReveal().reveal('.loginBox h2', {
+    scale: 2,
+    duration: 3000,
+    delay: 500,
+    mobile: false,
+});
+
 ScrollReveal().reveal('.information h2', {
     reset: true,
     duration: 1500,
