@@ -11,9 +11,6 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>MECHAIN</title>
-        <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
-        <meta name="keywords"
-            content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300|Open+Sans:400,600,700,300' rel='stylesheet'
             type='text/css'>
         <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
@@ -39,7 +36,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                                     <li class="active"><a href="#header">Home</a></li>
                                     <li><a href="#repair">Repair</a></li>
                                     <li><a href="http://localhost/php/users/artikel.php">Article</a></li>
-                                    <li><a href="#">Location</a></li>
+                                    <li><a href="http://localhost/php/users/location.php">Location</a></li>
                                     <li><a href="#contact">Contact</a></li>
                                     <li style="padding-left: 30px;"><a>
                                             <a href="/php/login/logout.php"><?php echo $_SESSION['name']; ?></a>

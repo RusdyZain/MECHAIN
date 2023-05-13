@@ -43,9 +43,9 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                             <ul class="nav navbar-nav">
                                 <li><a href="http://localhost/php/users/user.php">Home</a></li>
                                 <li><a href="#repair">Repair</a></li>
-                                <li class="active"><a href="http://localhost/artikel.html">Article</a></li>
-                                <li><a href="#">Location</a></li>
-                                <li><a href="http://localhost/index.php#contact">Contact</a></li>
+                                <li class="active"><a href="http://localhost/php/users/artikel.php">Article</a></li>
+                                <li><a href="http://localhost/php/users/location.php">Location</a></li>
+                                <li><a href="http://localhost/php/users/index.php#contact">Contact</a></li>
                                 <li style="padding-left: 30px;"><a>
                                         <?php echo $_SESSION['name']; ?>
                                     </a></li>
