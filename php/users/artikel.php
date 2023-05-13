@@ -27,10 +27,6 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
     <link rel="stylesheet" href="/css/vendor.css">
     <link rel="stylesheet" href="/css/main.css">
 
-
-    <link rel="shortcut icon" href="favicon.ico" type="/img/x-icon">
-    <link rel="icon" href="favicon.ico" type="/img/x-icon">
-
 </head>
 
 <body id="top" style="background-color: black;">
@@ -45,8 +41,10 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                         </div>
                         <div class="collapse navbar-collapse navbar-right" id="mynavbar">
                             <ul class="nav navbar-nav">
-                                <li><a href="http://localhost/php/user.php">Home</a></li>
+                                <li><a href="http://localhost/php/users/user.php">Home</a></li>
+                                <li><a href="#repair">Repair</a></li>
                                 <li class="active"><a href="http://localhost/artikel.html">Article</a></li>
+                                <li><a href="#">Location</a></li>
                                 <li><a href="http://localhost/index.php#contact">Contact</a></li>
                                 <li style="padding-left: 30px;"><a>
                                         <?php echo $_SESSION['name']; ?>
@@ -69,7 +67,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                             <ul class="slides">
                                 <li>
                                     <div class="featured-post-slide">
-                                        <div class="post-background" style="background-image:url('/img/oli.jpg')">
+                                        <div class="post-background" style="background-image:url('/img/artikel/oli.jpg')">
                                         </div>
                                         <div class="overlay"></div>
 
@@ -91,7 +89,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                                     <div class="featured-post-slide">
 
                                         <div class="post-background"
-                                            style="background-image:url('/img/Cek-tekanan-udara-ban-motor.jpg')">
+                                            style="background-image:url('/img/artikel/Cek-tekanan-udara-ban-motor.jpg')">
                                         </div>
 
                                         <div class="overlay"></div>
@@ -115,7 +113,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                                     <div class="featured-post-slide">
 
                                         <div class="post-background"
-                                            style="background-image:url('/img/cara-merawat-motor-scaled.jpg');;">
+                                            style="background-image:url('/img/artikel/cara-merawat-motor-scaled.jpg');;">
                                         </div>
 
                                         <div class="overlay"></div>
@@ -144,7 +142,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                     <div class="entry-thumb">
                         <a href="https://www.cnnindonesia.com/otomotif/20230224105251-600-918282/5-cara-merawat-kampas-rem-motor-agar-awet-dan-pakem"
                             class="thumb-link">
-                            <img src="/img/kampas.jpeg" alt="building">
+                            <img src="/img/artikel/kampas.jpeg" alt="building">
                         </a>
                     </div>
 
@@ -176,7 +174,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                     <div class="entry-thumb">
                         <a href="https://ruber.id/coolant-motor-pentingnya-mengenal-cairan-pendingin-pada-kendaraan"
                             class="thumb-link">
-                            <img src="/img/ruber.jpg" alt="ferris wheel">
+                            <img src="/img/artikel/ruber.jpg" alt="ferris wheel">
                         </a>
                     </div>
 
@@ -207,7 +205,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                     <div class="entry-thumb">
                         <a href="https://id.motor1.com/features/594314/tanda-shockbreaker-motor-harus-ganti"
                             class="thumb-link">
-                            <img src="/img/shock.png" alt="concert">
+                            <img src="/img/artikel/shock.png" alt="concert">
                         </a>
                     </div>
 
@@ -253,7 +251,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                     <div class="entry-thumb">
                         <a href="https://otomotif.kompas.com/read/2020/10/29/110200315/pelajari-jenis-penyakit-pada-busi-yang-lazim-terjadi"
                             class="thumb-link">
-                            <img src="/img/busi.jpg" alt="Shutterbug">
+                            <img src="/img/artikel/busi.jpg" alt="Shutterbug">
                         </a>
                     </div>
 
@@ -286,7 +284,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                     <div class="entry-thumb">
                         <a href="https://momotor.id/news/jenis-oli-motor-berdasarkan-bahan-dasar-dan-fungsinya"
                             class="thumb-link">
-                            <img src="/img/Jenis-Oli-Motor-1.jpg" alt="USAF rocket">
+                            <img src="/img/artikel/Jenis-Oli-Motor-1.jpg" alt="USAF rocket">
                         </a>
                     </div>
 
@@ -318,7 +316,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                     <div class="entry-thumb">
                         <a href="https://www.cermati.com/artikel/bengkel-motor-sebagai-peluang-usaha-ini-tips-sukses-dan-strategi-yang-perlu-kamu-tahu"
                             class="thumb-link">
-                            <img src="/img/bengkel2.jpeg" alt="USAF rocket">
+                            <img src="/img/artikel/bengkel2.jpeg" alt="USAF rocket">
                         </a>
 
                     </div>
@@ -352,7 +350,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                     <div class="entry-thumb">
                         <a href="https://katadata.co.id/sitinuraeni/berita/6184dd90764ca/pahami-cara-berkendara-motor-yang-baik-di-jalan-raya"
                             class="thumb-link">
-                            <img src="/img/jalanraya.jpg" alt="Pattern">
+                            <img src="/img/artikel/jalanraya.jpg" alt="Pattern">
                         </a>
                     </div>
 
@@ -382,7 +380,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                     <div class="entry-thumb video-image">
                         <a href="https://review.bukalapak.com/auto/bengkel-sepeda-motor-terdekat-119453"
                             class="thumb-link"></a>
-                        <img src="/img/bengkel-termahal-di-bandung.jpg" alt="bokeh">
+                        <img src="/img/artikel/bengkel-termahal-di-bandung.jpg" alt="bokeh">
                         </a>
                     </div>
 
@@ -413,7 +411,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                     <div class="entry-thumb">
                         <a href="otosia.com/berita/read/4746326/motor-harus-masuk-bengkel-kenali-tanda-tandanya"
                             class="thumb-link">
-                            <img src="/img/servis.jpg" alt="Lighthouse">
+                            <img src="/img/artikel/servis.jpg" alt="Lighthouse">
                         </a>
                     </div>
 
@@ -443,7 +441,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                     <div class="entry-thumb">
                         <a href="https://www.liputan6.com/otomotif/read/3679413/peran-mekanik-itu-sangat-penting-ini-buktinya"
                             class="thumb-link">
-                            <img src="/img/mekanik.jpg" alt="Liberty">
+                            <img src="/img/artikel/mekanik.jpg" alt="Liberty">
                         </a>
                     </div>
 
