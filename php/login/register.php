@@ -29,7 +29,7 @@ if ($row != null) {
     $result = $stmt->get_result();
     var_dump($result);
     $_SESSION['message'] = 'Berhasil register ke dalam sistem. Silakan login dengan username dan password yang sudah dibuat.';
-    header("Location: register.php");
+    header("Location: login.php");
     exit();
 }
 ?>

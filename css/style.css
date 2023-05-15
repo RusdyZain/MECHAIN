@@ -279,6 +279,7 @@ a:hover {
     margin-bottom: 15px;
   }
 }
+
 @media (min-width: 20px) and (max-width: 450px) {
   .navbar-toggle:hover,
   .navbar-toggle {
@@ -301,13 +302,16 @@ a:hover {
     background-color: rgba(255, 255, 255, 0.32);
     color: #ffd34e;
   }
+  .navbar-default .navbar-brand{
+    font-size: 20px;
+  }
   .top-title {
     font-size: 15px;
   }
   .title {
-    font-size: 50px;
+    font-size: 40px;
   }
-  .sub-title-inf {
+  .sub-title {
     font-size: 24px;
   }
   .footer-copyright {
