@@ -273,12 +273,13 @@ a:hover {
 .link-dec:hover {
   color: #000;
 }
-/****/
+/****/ 
 @media (min-width: 451px) and (max-width: 900px) {
   .section-title {
     margin-bottom: 15px;
   }
 }
+
 
 @media (min-width: 20px) and (max-width: 450px) {
   .navbar-toggle:hover,
@@ -302,17 +303,23 @@ a:hover {
     background-color: rgba(255, 255, 255, 0.32);
     color: #ffd34e;
   }
-  .navbar-default .navbar-brand{
+  .navbar-default .navbar-brand {
     font-size: 20px;
   }
   .top-title {
     font-size: 15px;
   }
+  .wrapper {
+    padding: 171px 0px 130px;
+  }
   .title {
     font-size: 40px;
+    margin-bottom: -30px;
+    margin-top: -50px;
   }
   .sub-title {
     font-size: 24px;
+    line-height: 1.5;
   }
   .footer-copyright {
     text-align: center;
@@ -322,6 +329,12 @@ a:hover {
   }
   .section-title {
     margin-bottom: 15px;
+  }
+  .section-title-inf h2 {
+    font-size: 18px;
+  }
+  .cta-info h3 {
+    font-size: 15px;
   }
   .cta-txt h3 {
     font-size: 28px;
@@ -359,6 +372,9 @@ a:hover {
   border-radius: 10px;
   outline-style: solid;
   outline-width: 5px;
+  width: 203px;
+  height: 181px;
+  border: 0;
 }
 
 .container_information {
@@ -377,7 +393,6 @@ a:hover {
   font-family: "Sofia", sans-serif;
   padding-left: 100px;
 }
-
 
 h2 .title-inf {
   color: #0a4870;
