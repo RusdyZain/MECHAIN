@@ -29,6 +29,10 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) { ?>
                     <div class="container">
                         <div class="col-md-12">
                             <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#mynavbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="fa fa-bars"></span>
+                                </button>
                                 <a href="index.html" class="navbar-brand">MECHAIN</a>
                             </div>
                             <div class="collapse navbar-collapse navbar-right" id="mynavbar">
@@ -61,7 +65,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) { ?>
                 </div>
                 <div class="content">
                     <h3>Karya Motor</h3>
-                    <div class="star"> 
+                    <div class="star">
                         <i data-feather="star"></i>
                         <i data-feather="star"></i> <i data-feather="star"></i>
                         <i data-feather="star"></i> <i data-feather="star"></i>

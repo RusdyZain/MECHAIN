@@ -29,6 +29,10 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                     <div class="container">
                         <div class="col-md-12">
                             <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#mynavbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="fa fa-bars"></span>
+                                </button>
                                 <a href="index.html" class="navbar-brand">MECHAIN</a>
                             </div>
                             <div class="collapse navbar-collapse navbar-right" id="mynavbar">
@@ -39,7 +43,9 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                                     <li><a href="http://localhost/php/users/location.php">Location</a></li>
                                     <li><a href="#contact">Contact</a></li>
                                     <li style="padding-left: 30px;"><a>
-                                            <a href="/php/login/logout.php"><?php echo $_SESSION['name']; ?></a>
+                                            <a href="/php/login/logout.php">
+                                                <?php echo $_SESSION['name']; ?>
+                                            </a>
                                         </a></li>
                                 </ul>
                             </div>
@@ -406,7 +412,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 
     </html>
 
-<?php
+    <?php
 } else {
     header("Location: index.php");
     exit();
