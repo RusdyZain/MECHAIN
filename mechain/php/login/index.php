@@ -8,7 +8,7 @@
     <title>Login</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/styleLogin.css">
+    <link rel="stylesheet" href="../../css/styleLogin.css">
 </head>
 
 <body>
@@ -67,7 +67,7 @@
             </div>
         </div>
     </div>
-    <script src="/js/login.js"></script>
+    <script src="../../js/login.js"></script>
 </body>
 
 </html>
