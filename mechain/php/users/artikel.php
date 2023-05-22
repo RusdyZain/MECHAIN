@@ -23,9 +23,9 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
         <link rel="stylesheet" type="text/css" href="../../css/animate.css">
 
         <link rel="stylesheet" type="text/css" href="../../css/style.css">
-        <link rel="stylesheet" href="/css/base.css">
-        <link rel="stylesheet" href="/css/vendor.css">
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="../../css/base.css">
+        <link rel="stylesheet" href="../../css/vendor.css">
+        <link rel="stylesheet" href="../../css/main.css">
 
     </head>
 
@@ -50,7 +50,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                                     <li class="active"><a href="http://localhost/mechain/php/users/artikel.php">Article</a></li>
                                     <li><a href="http://localhost/mechain/php/users/location.php">Location</a></li>
                                     <li><a href="http://localhost/mechain/php/users/user.php#contact">Contact</a></li>
-                                    <li style="padding-left: 30px;"><a>
+                                    <li style="padding-left: 30px;"><a href="mechain/php/login/logout.php">
                                             <?php echo $_SESSION['name']; ?>
                                         </a></li>
                                 </ul>

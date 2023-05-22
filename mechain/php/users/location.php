@@ -42,7 +42,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) { ?>
                                     <li><a href="http://localhost/mechain/php/users/artikel.php">Article</a></li>
                                     <li class="active"><a href="http://localhost/mechain/php/users/location.php">Location</a></li>
                                     <li><a href="http://localhost/mechain/php/users/user.php#contact">Contact</a></li>
-                                    <li style="padding-left: 30px;"><a>
+                                    <li style="padding-left: 30px;"><a href="mechain/php/login/logout.php">
                                             <a href="mechain/php/login/logout.php">
                                                 <?php echo $_SESSION['name']; ?>
                                             </a>
