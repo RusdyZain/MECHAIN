@@ -4,4 +4,4 @@ session_start();
 session_unset();
 session_destroy();
 
-header("Location: /mechain/index.html");
+header("Location: index.html");
