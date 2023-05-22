@@ -14,10 +14,10 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300|Open+Sans:400,600,700,300' rel='stylesheet'
             type='text/css'>
         <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-        <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="/css/animate.css">
-        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../../css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../../css/animate.css">
+        <link rel="stylesheet" type="text/css" href="../../css/style.css">
     </head>
 
     <body>
@@ -39,11 +39,11 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                                 <ul class="nav navbar-nav">
                                     <li class="active"><a href="#header">Home</a></li>
                                     <li><a href="#repair">Repair</a></li>
-                                    <li><a href="http://localhost/php/users/artikel.php">Article</a></li>
-                                    <li><a href="http://localhost/php/users/location.php">Location</a></li>
+                                    <li><a href="http://localhost/mechain/php/users/artikel.php">Article</a></li>
+                                    <li><a href="http://localhost/mechain/php/users/location.php">Location</a></li>
                                     <li><a href="#contact">Contact</a></li>
                                     <li style="padding-left: 30px;"><a>
-                                            <a href="/php/login/logout.php">
+                                            <a href="mechain/php/login/logout.php">
                                                 <?php echo $_SESSION['name']; ?>
                                             </a>
                                         </a></li>
@@ -192,7 +192,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                         </div>
                     </div>
                 </li>
-                <li class="booking-card" style="background-image: url(/img/artikel2.jpg);">
+                <li class="booking-card" style="background-image: url(../../img/artikel2.jpg);">
                     <div class="book-container">
                         <div class="content">
                             <button class="btn"><a
@@ -399,12 +399,12 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
         <!--/footer-->
 
         <!--Script-->
-        <script src="/js/jquery.min.js"></script>
-        <script src="/js/jquery.easing.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
-        <script src="/js/wow.js"></script>
-        <script src="/js/custom.js"></script>
-        <script defer src="/js/reveal.js"></script>
+        <script src="../../js/jquery.min.js"></script>
+        <script src="../../js/jquery.easing.min.js"></script>
+        <script src="../../js/bootstrap.min.js"></script>
+        <script src="../../js/wow.js"></script>
+        <script src="../../js/custom.js"></script>
+        <script defer src="../../js/reveal.js"></script>
         <script src="https://unpkg.com/scrollreveal"></script>
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 

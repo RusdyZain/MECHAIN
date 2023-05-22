@@ -16,7 +16,7 @@ body {
   align-items: center;
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
-  background: url(/img/banner.jpg) no-repeat;
+  background: url(../../img/banner.jpg) no-repeat;
   background-size: cover;
   color: #a0a5a8;
 }
