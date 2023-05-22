@@ -23,9 +23,8 @@ body {
   color: #fff;
 }
 
-/* About Section */
-.menu {
-  /* padding: 8rem 7% 1.4rem; */
+.menu{
+  padding-top: 100px;
 }
 
 .menu h2 {
@@ -70,11 +69,16 @@ body {
 
 .menu .row .menu-card .menu-card-title {
   margin: 1rem auto 0.5rem;
+  font-size: 16px;
+}
+.menu-card a{
+  color: bisque;
 }
 
-/* .menu .row .menu-card .menu-card-img {
-  box-shadow: -20px -20px #ff731d;
-} */
+.menu-card a:hover{
+  color: aqua;
+}
+
 
 /* media queries */
 /* breakpoints */

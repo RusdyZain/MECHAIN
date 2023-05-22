@@ -38,12 +38,12 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                             <div class="collapse navbar-collapse navbar-right" id="mynavbar">
                                 <ul class="nav navbar-nav">
                                     <li class="active"><a href="#header">Home</a></li>
-                                    <li><a href="#repair">Repair</a></li>
+                                    <li><a href="http://localhost/mechain/php/users/repair.php">Repair</a></li>
                                     <li><a href="http://localhost/mechain/php/users/artikel.php">Article</a></li>
                                     <li><a href="http://localhost/mechain/php/users/location.php">Location</a></li>
                                     <li><a href="#contact">Contact</a></li>
                                     <li style="padding-left: 30px;"><a>
-                                            <a href="mechain/php/login/logout.php">
+                                            <a href="/mechain/php/login/logout.php">
                                                 <?php echo $_SESSION['name']; ?>
                                             </a>
                                         </a></li>
