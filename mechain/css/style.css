@@ -29,7 +29,7 @@ h6 {
   background-color: transparent;
 }
 .main-header {
-  background: url(../../img/banner.jpg) no-repeat;
+  background: url(../img/banner.jpg) no-repeat;
   background-size: cover;
   min-height: 590px;
 }
