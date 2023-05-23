@@ -16,9 +16,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Repair</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
       rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
@@ -76,80 +74,80 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
-          <h3 class="menu-card-title">- Cara Cepat Mengatasi Motor Mogok Tak Mau Nyala -</h3>
+          <h3 class="menu-card-title">Cara Cepat Mengatasi Motor Mogok Tak Mau Nyala</h3>
           <p class="menu-card-price">Motor Mogok
           </p>
         </div>
         <div class="menu-card">
-          <iframe width="350" height="200" src="https://www.youtube.com/embed/fj-LlNktCAI" title="YouTube video player"
+          <iframe width="350" height="200" src="https://www.youtube.com/embed/YsF1SJ7vIfg" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
-          <h3 class="menu-card-title">- Cara Cepat Mengatasi Motor Mogok Tak Mau Nyala -</h3>
-          <p class="menu-card-price">Motor Mogok
+          <h3 class="menu-card-title">Cara Agar Shock Depan Empuk Lagi</h3>
+          <p class="menu-card-price">Shock Empuk
           </p>
         </div>
         <div class="menu-card">
-          <iframe width="350" height="200" src="https://www.youtube.com/embed/fj-LlNktCAI" title="YouTube video player"
+          <iframe width="350" height="200" src="https://www.youtube.com/embed/Lbm--xUrL0M" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
-          <h3 class="menu-card-title">- Cara Cepat Mengatasi Motor Mogok Tak Mau Nyala -</h3>
-          <p class="menu-card-price">Motor Mogok
+          <h3 class="menu-card-title">Tutorial Pemasangan Bosh Arm Yamaha Byson</h3>
+          <p class="menu-card-price">Bosh Arm
           </p>
         </div>
         <div class="menu-card">
-          <iframe width="350" height="200" src="https://www.youtube.com/embed/fj-LlNktCAI" title="YouTube video player"
+          <iframe width="350" height="200" src="https://www.youtube.com/embed/Dho6C3heu3w" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
-          <h3 class="menu-card-title">- Cara Cepat Mengatasi Motor Mogok Tak Mau Nyala -</h3>
-          <p class="menu-card-price">Motor Mogok
+          <h3 class="menu-card-title">Penyebab Shogun FI Nyendat Saat Dibawa Jalan</h3>
+          <p class="menu-card-price">Shogun FI Mogok
           </p>
         </div>
         <div class="menu-card">
-          <iframe width="350" height="200" src="https://www.youtube.com/embed/fj-LlNktCAI" title="YouTube video player"
+          <iframe width="350" height="200" src="https://www.youtube.com/embed/BdUxZZWUsQ8" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
-          <h3 class="menu-card-title">- Cara Cepat Mengatasi Motor Mogok Tak Mau Nyala -</h3>
-          <p class="menu-card-price">Motor Mogok
+          <h3 class="menu-card-title">Cara Mudah Membuka Busi Motor Matic</h3>
+          <p class="menu-card-price">Busi Mati
           </p>
         </div>
         <div class="menu-card">
-          <iframe width="350" height="200" src="https://www.youtube.com/embed/fj-LlNktCAI" title="YouTube video player"
+          <iframe width="350" height="200" src="https://www.youtube.com/embed/XDjVYF0r9Xs" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
-          <h3 class="menu-card-title">- Cara Cepat Mengatasi Motor Mogok Tak Mau Nyala -</h3>
-          <p class="menu-card-price">Motor Mogok
+          <h3 class="menu-card-title">Cara Seting Karburator Standart Agar Tarikan Lebih Gahar</h3>
+          <p class="menu-card-price">Kabulator Standart
           </p>
         </div>
         <div class="menu-card">
-          <iframe width="350" height="200" src="https://www.youtube.com/embed/fj-LlNktCAI" title="YouTube video player"
+          <iframe width="350" height="200" src="https://www.youtube.com/embed/eZY01rincOQ" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
-          <h3 class="menu-card-title">- Cara Cepat Mengatasi Motor Mogok Tak Mau Nyala -</h3>
-          <p class="menu-card-price">Motor Mogok
+          <h3 class="menu-card-title">Cara Menguras dan Mengisi Air Radiator pada Motor!</h3>
+          <p class="menu-card-price">Air Radiator
           </p>
         </div>
         <div class="menu-card">
-          <iframe width="350" height="200" src="https://www.youtube.com/embed/fj-LlNktCAI" title="YouTube video player"
+          <iframe width="350" height="200" src="https://www.youtube.com/embed/upKVTCBLmo4" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
-          <h3 class="menu-card-title">- Cara Cepat Mengatasi Motor Mogok Tak Mau Nyala -</h3>
-          <p class="menu-card-price">Motor Mogok
+          <h3 class="menu-card-title">Tips Menjaga Roller Motor Matic Awet Terus</h3>
+          <p class="menu-card-price">Roller Motor
           </p>
         </div>
         <div class="menu-card">
-          <iframe width="350" height="200" src="https://www.youtube.com/embed/fj-LlNktCAI" title="YouTube video player"
+          <iframe width="350" height="200" src="https://www.youtube.com/embed/XEZ0YQMy2x0" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
-          <h3 class="menu-card-title">- Cara Cepat Mengatasi Motor Mogok Tak Mau Nyala -</h3>
-          <p class="menu-card-price">Motor Mogok
+          <h3 class="menu-card-title">Cara Ganti Kampas Rem Motor Dengan Mudah - Praktek Mengganti Kampas Rem lengkap</h3>
+          <p class="menu-card-price">Cara Ganti Kampas
           </p>
         </div>
 
