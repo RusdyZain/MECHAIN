@@ -65,7 +65,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
       </div>
     </header>
     <section id="menu" class="menu">
-      <h2>Beberapa Masalah Pada Sepeda Motor</h2>
+      <h2 class="top-title"> Tutorial Memperbaiki Sepeda Motor</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quos
         velit cupiditate ducimus voluptatum excepturi.

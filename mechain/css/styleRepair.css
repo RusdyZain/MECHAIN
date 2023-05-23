@@ -59,6 +59,7 @@ body {
 .menu .row .menu-card {
   text-align: center;
   padding-bottom: 2.5rem;
+  margin-right: 30px;
 }
 
 .menu .row .menu-card img {

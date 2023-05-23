@@ -1298,11 +1298,11 @@ input::-moz-focus-inner {
 }
 
 #featured-post-slider .flex-direction-nav li a.flex-prev {
-	background-image: url(/img/arrow-left.png);
+	background-image: url(../img/icon/arrow-left.png);
 }
 
 #featured-post-slider .flex-direction-nav li a.flex-next {
-	background-image: url(/img/arrow-right.png);
+	background-image: url(../img/icon/arrow-right.png);
 }
 
 #featured-post-slider .flex-direction-nav li a:hover {
