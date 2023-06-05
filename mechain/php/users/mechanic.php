@@ -3,16 +3,17 @@ session_start();
 
 if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 
-    ?>
+?>
     <!DOCTYPE html>
     <html lang="en">
 
     <head>
+        <title>Dashboard Mechanic</title>
+        <link rel="icon" type="image/x-icon" href="../../img/MechainLogo.png">
+        
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>MECHAIN</title>
-        <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300|Open+Sans:400,600,700,300' rel='stylesheet'
-            type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300|Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
         <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="../../css/font-awesome.min.css">
@@ -29,8 +30,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                     <div class="container">
                         <div class="col-md-12">
                             <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                    data-target="#mynavbar" aria-expanded="false" aria-controls="navbar">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" aria-controls="navbar">
                                     <span class="fa fa-bars"></span>
                                 </button>
                                 <a href="mechanic.php" class="navbar-brand">MECHAIN</a>
@@ -84,71 +84,47 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                 <div class="swiper swiper1">
                     <div class="information-cards swiper-wrapper">
                         <div class="information-card swiper-slide">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31559.602107711507!2d116.1312431!3d-8.600774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdb8b01098c353%3A0x1fdc5c1983bbd1c3!2sKarya%20Motor!5e0!3m2!1sid!2sid!4v1683304663184!5m2!1sid!2sid"
-                                width="203" height="181" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31559.602107711507!2d116.1312431!3d-8.600774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdb8b01098c353%3A0x1fdc5c1983bbd1c3!2sKarya%20Motor!5e0!3m2!1sid!2sid!4v1683304663184!5m2!1sid!2sid" width="203" height="181" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             <h5>Karya Motor</h5>
                             <h6>Jl. TGH. Faesal No.9, Mandalika, Kec. Sandubaya, Kota Mataram, Nusa Tenggara Bar. 83233</h6>
                         </div>
                         <div class="information-card swiper-slide">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.0659708598446!2d116.10771099999998!3d-8.589656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdbf616d7e1045%3A0x2c0fc2fe82bf8dbb!2sBengkel%20Tirta%20Sari%20Motor!5e0!3m2!1sid!2sid!4v1683304956097!5m2!1sid!2sid"
-                                width="203" height="181" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.0659708598446!2d116.10771099999998!3d-8.589656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdbf616d7e1045%3A0x2c0fc2fe82bf8dbb!2sBengkel%20Tirta%20Sari%20Motor!5e0!3m2!1sid!2sid!4v1683304956097!5m2!1sid!2sid" width="203" height="181" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             <h5>Bengkel Tirta Sari Motor</h5>
                             <h6>Jl. Arif Rahman Hakim No.7, Mataram Tim., Kec. Mataram, Kota Mataram, Nusa Tenggara Bar.
                                 83217</h6>
                         </div>
                         <div class="information-card swiper-slide">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.0555707663757!2d116.107681!3d-8.5906559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdbf614b033609%3A0x6dd293e6fa161ed5!2sBengkel%20Wero!5e0!3m2!1sid!2sid!4v1683305082571!5m2!1sid!2sid"
-                                width="203" height="181" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.0555707663757!2d116.107681!3d-8.5906559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdbf614b033609%3A0x6dd293e6fa161ed5!2sBengkel%20Wero!5e0!3m2!1sid!2sid!4v1683305082571!5m2!1sid!2sid" width="203" height="181" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             <h5>Bengkel Wero</h5>
                             <h6>Jl. Arif Rahman Hakim No.17, Mataram Tim., Kec. Mataram, Kota Mataram, Nusa Tenggara Bar.
                                 83127</h6>
                         </div>
                         <div class="information-card swiper-slide">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.001921368718!2d116.10064530000001!3d-8.5958121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdbf654a9b881f%3A0x44f4a9b389afd36a!2sBengkel%20MULTI%20ENGINE%20SERVICE!5e0!3m2!1sid!2sid!4v1683305528054!5m2!1sid!2sid"
-                                width="203" height="181" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.001921368718!2d116.10064530000001!3d-8.5958121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdbf654a9b881f%3A0x44f4a9b389afd36a!2sBengkel%20MULTI%20ENGINE%20SERVICE!5e0!3m2!1sid!2sid!4v1683305528054!5m2!1sid!2sid" width="203" height="181" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             <h5>Bengkel Multi Engine Service</h5>
                             <h6>Jl. Swakarya Raya No.4, Pagesangan, Kec. Sekarbela, Kota Mataram, Nusa Tenggara Bar. 83127
                             </h6>
                         </div>
                         <div class="information-card swiper-slide">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.2563308228987!2d116.09229629999999!3d-8.5713337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdc111f1488661%3A0xf761a2cc80d89b98!2sBengkel%20Barokah%20Motor%20eron!5e0!3m2!1sid!2sid!4v1683305727163!5m2!1sid!2sid"
-                                width="203" height="181" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.2563308228987!2d116.09229629999999!3d-8.5713337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdc111f1488661%3A0xf761a2cc80d89b98!2sBengkel%20Barokah%20Motor%20eron!5e0!3m2!1sid!2sid!4v1683305727163!5m2!1sid!2sid" width="203" height="181" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             <h5>Bengkel Barokah Motor Eron</h5>
                             <h6>C3HR+FW7, Moncok telaga mas, Jl. Lestari Gg, Kec. Ampenan, Kota Mataram, Nusa Tenggara Bar.
                                 83113</h6>
                         </div>
                         <div class="information-card swiper-slide">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.250141901528!2d116.1084611!3d-8.57193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdc1b5cc7e26bd%3A0x25b514ce550720d1!2sbengkel%20family%20motor!5e0!3m2!1sid!2sid!4v1683305807126!5m2!1sid!2sid"
-                                width="203" height="181" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.250141901528!2d116.1084611!3d-8.57193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdc1b5cc7e26bd%3A0x25b514ce550720d1!2sbengkel%20family%20motor!5e0!3m2!1sid!2sid!4v1683305807126!5m2!1sid!2sid" width="203" height="181" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             <h5>Bengkel Family Motor</h5>
                             <h6>jl dr soetomo ruko no 1 marong jamak selatan, Kota Mataram, Nusa Tenggara Bar. 83122</h6>
                         </div>
                         <div class="information-card swiper-slide">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.9900118277483!2d116.09942639999998!3d-8.5969563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdbf7aa6d9acdf%3A0x7fe5e06adbffc90a!2sRoemah%20Bengkel!5e0!3m2!1sid!2sid!4v1683305862312!5m2!1sid!2sid"
-                                width="203" height="181" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.9900118277483!2d116.09942639999998!3d-8.5969563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdbf7aa6d9acdf%3A0x7fe5e06adbffc90a!2sRoemah%20Bengkel!5e0!3m2!1sid!2sid!4v1683305862312!5m2!1sid!2sid" width="203" height="181" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             <h5>Roemah Bengkel</h5>
                             <h6>Jalan Anca 7 No.10, Pagesangan Bar., Kec. Mataram, Kota Mataram, Nusa Tenggara Bar. 83115
                             </h6>
                         </div>
                         <div class="information-card swiper-slide">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.974348626128!2d116.1127427!3d-8.5984609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdbf4281033765%3A0x432d306932bfd412!2sCahaya%20Motor%20Bengkel!5e0!3m2!1sid!2sid!4v1683305918314!5m2!1sid!2sid"
-                                width="203" height="181" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.974348626128!2d116.1127427!3d-8.5984609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdbf4281033765%3A0x432d306932bfd412!2sCahaya%20Motor%20Bengkel!5e0!3m2!1sid!2sid!4v1683305918314!5m2!1sid!2sid" width="203" height="181" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             <h5>Cahaya Motor Bengkel</h5>
                             <h6>Jl. Guru Bangkol Blok A No.3, Pagesangan Tim., Kec. Mataram, Kota Mataram, Nusa Tenggara
                                 Bar. 83127</h6>
@@ -166,8 +142,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                 <li class="booking-card" style="background-image: url('https://www.suzukicdn.com/uploads/news/Nex_II_(1)2.jpg');">
                     <div class="book-container">
                         <div class="content">
-                            <button class="btn"><a
-                                    href="https://www.suzuki.co.id/tips-trik/5-cara-merawat-motor-baru-yang-wajib-diperhatikan?pages=all">Baca
+                            <button class="btn"><a href="https://www.suzuki.co.id/tips-trik/5-cara-merawat-motor-baru-yang-wajib-diperhatikan?pages=all">Baca
                                     Artikel</a></button>
                         </div>
                     </div>
@@ -189,12 +164,10 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                         </div>
                     </div>
                 </li>
-                <li class="booking-card"
-                    style="background-image: url(https://media.suara.com/pictures/653x366/2022/01/25/97025-ilustrasi-mengecek-mesin-sepeda-motor-pexels.webp);">
+                <li class="booking-card" style="background-image: url(https://media.suara.com/pictures/653x366/2022/01/25/97025-ilustrasi-mengecek-mesin-sepeda-motor-pexels.webp);">
                     <div class="book-container">
                         <div class="content">
-                            <button class="btn"><a
-                                    href="https://yoursay.suara.com/lifestyle/2022/01/25/185112/4-cara-merawat-mesin-sepeda-motor-agar-tetap-awet">Baca
+                            <button class="btn"><a href="https://yoursay.suara.com/lifestyle/2022/01/25/185112/4-cara-merawat-mesin-sepeda-motor-agar-tetap-awet">Baca
                                     Artikel</a></button>
                         </div>
                     </div>
@@ -218,12 +191,10 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                         </div>
                     </div>
                 </li>
-                <li class="booking-card"
-                    style="background-image: url(https://d1n6dbtoa2690v.cloudfront.net/article/592bde3e150ba016529b3916/592bde3e150ba016529b3916_1603770047.webp);">
+                <li class="booking-card" style="background-image: url(https://d1n6dbtoa2690v.cloudfront.net/article/592bde3e150ba016529b3916/592bde3e150ba016529b3916_1603770047.webp);">
                     <div class="book-container">
                         <div class="content">
-                            <button class="btn"><a
-                                    href="https://www.pricebook.co.id/article/tips_tricks/6726/kerusakan-motor-matic">Baca
+                            <button class="btn"><a href="https://www.pricebook.co.id/article/tips_tricks/6726/kerusakan-motor-matic">Baca
                                     Artikel</a></button>
                         </div>
                     </div>
@@ -244,12 +215,10 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                         </div>
                     </div>
                 </li>
-                <li class="booking-card"
-                    style="background-image: url(https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1634787819/pqi209szrlcqffku5ogp_tpxmk7.jpg);">
+                <li class="booking-card" style="background-image: url(https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1634787819/pqi209szrlcqffku5ogp_tpxmk7.jpg);">
                     <div class="book-container">
                         <div class="content">
-                            <button class="btn"><a
-                                    href="https://kumparan.com/info-otomotif/cara-mengatasi-motor-tidak-bisa-hidup-cek-langkah-alternatif-berikut-1wlLBiY0MkP/full">Baca
+                            <button class="btn"><a href="https://kumparan.com/info-otomotif/cara-mengatasi-motor-tidak-bisa-hidup-cek-langkah-alternatif-berikut-1wlLBiY0MkP/full">Baca
                                     Artikel</a></button>
                         </div>
                     </div>
@@ -274,7 +243,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
         </section>
         <!--/Artikel--->
 
-    <!--Contact-->
+        <!--Contact-->
         <section class="section-padding wow fadeInUp delay-02s" id="contact">
             <div class="container">
                 <div class="row white">
@@ -294,28 +263,21 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                             <div class="contact-info">
                                 <form action="../config/configContact.php" method="post" role="form" class="contactForm">
                                     <div class="form-group">
-                                        <input type="text" name="name" class="form-control" id="name"
-                                            placeholder="Your Name" data-rule="minlen:4"
-                                            data-msg="Please enter at least 4 chars" />
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                                         <div class="validation"></div>
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" name="email" id="email"
-                                            placeholder="Your Email" data-rule="email"
-                                            data-msg="Please enter a valid email" />
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                                         <div class="validation"></div>
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="text" class="form-control" name="subject" id="subject"
-                                            placeholder="Subject" data-rule="minlen:4"
-                                            data-msg="Please enter at least 8 chars of subject" />
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                                         <div class="validation"></div>
                                     </div>
 
                                     <div class="form-group">
-                                        <textarea class="form-control" name="message" rows="5" data-rule="required"
-                                            data-msg="Please write something for us" placeholder="Message"></textarea>
+                                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                                         <div class="validation"></div>
                                     </div>
                                     <button type="submit" class="btn btn-send">Send</button>
@@ -330,8 +292,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                                     62 Mataram, Nusa Tenggara Barat Indonesia</p>
                                 <p class="white"><span aria-hidden="true" class="fa fa-phone"></span>Phone: +62 878 6569
                                     3246</p>
-                                <p class="white"><span aria-hidden="true" class="fa fa-envelope"></span>Email: <a href=""
-                                        class="link-dec">ryanfajri28@gmail.com</a></p>
+                                <p class="white"><span aria-hidden="true" class="fa fa-envelope"></span>Email: <a href="" class="link-dec">ryanfajri28@gmail.com</a></p>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -383,7 +344,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 
     </html>
 
-    <?php
+<?php
 } else {
     header("Location: index.php");
     exit();

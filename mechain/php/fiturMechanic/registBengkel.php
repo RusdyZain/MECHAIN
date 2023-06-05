@@ -9,10 +9,12 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
     <html lang="en">
 
     <head>
+        <title>Register Bengkel</title>
+        <link rel="icon" type="image/x-icon" href="../../img/MechainLogo.png">
+
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300|Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
         <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">

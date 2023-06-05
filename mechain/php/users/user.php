@@ -8,9 +8,11 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
     <html lang="en">
 
     <head>
+        <title>Dashboard User</title>
+        <link rel="icon" type="image/x-icon" href="../../img/MechainLogo.png">
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>MECHAIN</title>
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300|Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
         <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
@@ -41,10 +43,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                                     <li><a href="http://localhost/mechain/php/fitur/location.php">Location</a></li>
                                     <li><a href="http://localhost/mechain/php/users/user.php#contact">Contact</a></li>
                                     <li style="padding-left: 30px;">
-                                        <form id="logoutForm" method="POST">
-                                            <a href="../login/logout.php" onclick="logout();"><?php echo $_SESSION['name']; ?></a>
-                                            <input type="hidden" name="logout">
-                                        </form>
+                                        <a href="../login/logout.php"><?php echo $_SESSION['name']; ?></a>
                                     </li>
                                 </ul>
                             </div>
@@ -248,7 +247,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                 <div class="row white">
                     <div class="col-md-8 col-sm-12">
                         <div class="section-title">
-                            <h2 class="head-title black">Contact Us</h2>
+                            <h2 class="head-title black">Contact</h2>
                             <hr class="botm-line">
                             <p class="sec-para black">Hubungi kami jika ada komentar dan saran mengenai keadaan website dan
                                 rekomendasi fitur.</p>
@@ -256,7 +255,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                     </div>
                     <div class="col-md-12 col-sm-12">
                         <div class="col-md-4 col-sm-6" style="padding-left:0px;">
-                            <h3 class="cont-title">Email Us</h3>
+                            <h3 class="cont-title">Contact Us</h3>
                             <div id="sendmessage">Your message has been sent. Thank you!</div>
                             <div id="errormessage"></div>
                             <div class="contact-info">
@@ -291,7 +290,10 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                                     62 Mataram, Nusa Tenggara Barat Indonesia</p>
                                 <p class="white"><span aria-hidden="true" class="fa fa-phone"></span>Phone: +62 878 6569
                                     3246</p>
-                                <p class="white"><span aria-hidden="true" class="fa fa-envelope"></span>Email: <a href="" class="link-dec">ryanfajri28@gmail.com</a></p>
+                                <p class="white">
+                                    <span aria-hidden="true" class="fa fa-envelope"></span>Email:
+                                    <a href="mailto:ryanfajri28@gmail.com" class="link-dec">ryanfajri28@gmail.com</a>
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-4">
