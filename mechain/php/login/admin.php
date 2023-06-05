@@ -16,7 +16,6 @@
         <div class="container a-container" id="a-container">
             <form action="../config/loginAdmin.php" method="POST" class="form" id="a-form">
                 <h2 class="form_title title">Sign in to Website</h2>
-                <span class="form__span">or use your email account</span>
                 <?php if (isset($_GET['error'])) { ?>
                     <p class="error">
                         <?php echo $_GET['error']; ?>
@@ -32,7 +31,6 @@
         <div class="container b-container" id="b-container">
             <form action="../config/loginAdmin.php" method="POST" class="form" id="b-form">
                 <h2 class="form_title title">Sign in to Website</h2>
-                <span class="form__span">or use your email account</span>
                 <?php if (isset($_GET['error'])) { ?>
                     <p class="error">
                         <?php echo $_GET['error']; ?>
