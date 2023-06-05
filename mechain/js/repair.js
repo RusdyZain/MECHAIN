@@ -1,101 +1,24 @@
-ScrollReveal({
-    mobile: false,
-  }
-  )
-  
-  ScrollReveal().reveal('.header', {
-    delay: 500,
-    reset: false,
-    mobile: false,
-  });
-  
-  ScrollReveal().reveal('.showcase-content', {
-    scale: 2,
-    duration: 3000,
-    delay: 500,
-    mobile: false,
-  });
-  
-  ScrollReveal().reveal('.showcase-search', {
-    duration: 1500,
-    delay: 500,
-  });
-  
-  ScrollReveal().reveal('.destinations h2', {
-    reset: true,
-    duration: 1500,
-    delay: 500,
-    origin: 'left',
-    distance: '50px',
-  });
-  
-  ScrollReveal().reveal('.destinations-cards', {
-    duration: 1500,
-  });
-  
-  ScrollReveal().reveal('.section-title', {
-    reset: true,
-    duration: 1500,
-    delay: 500,
-    origin: 'left',
-    distance: '50px',
-  });
-  
-  ScrollReveal().reveal('.hotel-card , #tours, #activities', {
-    duration: 1500,
-    origin: 'left',
-    distance: '50px',
-  });
-  
-  ScrollReveal().reveal('.about-content', {
-    reset: true,
-    duration: 1500,
-    origin: 'left',
-    distance: '50px',
-  });
-  
-  ScrollReveal().reveal('.about-img', {
-    reset: true,
-    duration: 1500,
-    origin: 'right',
-    distance: '50px',
-  });
-  
-  const swiper = new Swiper('.swiper1', {
-    direction: 'horizontal',
-    loop: true,
-    speed: 600,
-    slidesPerView: 6,
-    spaceBetween: 10,
-    breakpoints: {
-      240: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      768: {
-        slidesPerView: 4,
-        spaceBetween: 40,
-      },
-      1024: {
-        slidesPerView: 6,
-        spaceBetween: 10,
-      },
-    },
-  });
-  
-  const hotelButton = document.querySelector('.hotel-button');
-  const hotelCard = document.querySelectorAll('.off');
-  const text = hotelButton.innerText;
-  
-  hotelButton.addEventListener('click', (e) => {
-    e.preventDefault();
-    hotelCard.forEach((x) => {
-      x.classList.toggle('on');
-    });
-  
-    if (e.target.innerHTML !== 'less <img src="/image/Imgs/icons/bleft.png">') {
-      e.target.innerHTML = 'less <img src="/image/Imgs/icons/bleft.png" >';
-    } else {
-      e.target.innerHTML = 'view all <img src="/image/Imgs/icons/bleft.png" >';
+const categoryTitle = document.querySelectorAll('.category-title');
+const allCategoryPosts = document.querySelectorAll('.all');
+
+for(let i = 0; i < categoryTitle.length; i++){
+    categoryTitle[i].addEventListener('click', filterPosts.bind(this, categoryTitle[i]));
+}
+
+function filterPosts(item){
+    changeActivePosition(item);
+    for(let i = 0; i < allCategoryPosts.length; i++){
+        if(allCategoryPosts[i].classList.contains(item.attributes.id.value)){
+            allCategoryPosts[i].style.display = "block";
+        } else {
+            allCategoryPosts[i].style.display = "none";
+        }
     }
-  });
+}
+
+function changeActivePosition(activeItem){
+    for(let i = 0; i < categoryTitle.length; i++){
+        categoryTitle[i].classList.remove('active');
+    }
+    activeItem.classList.add('active');
+};

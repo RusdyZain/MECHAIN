@@ -1,7 +1,7 @@
 body {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
-  overflow-x: hidden;
+  overflow-x: auto;
   background-color: #191919;
 }
 ul {
@@ -273,13 +273,12 @@ a:hover {
 .link-dec:hover {
   color: #000;
 }
-/****/ 
+/****/
 @media (min-width: 451px) and (max-width: 900px) {
   .section-title {
     margin-bottom: 15px;
   }
 }
-
 
 @media (min-width: 20px) and (max-width: 450px) {
   .navbar-toggle:hover,
@@ -457,6 +456,15 @@ ul .booking-card .book-container .content .btn:hover {
   border: 0px solid white;
   color: #0a4870;
 }
+
+.container-grid ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
 ul .booking-card .informations-container {
   flex: 1 0 auto;
   padding: 20px;
@@ -557,7 +565,27 @@ ul .booking-card:hover .informations-container .more-information {
   opacity: 1;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 0px) {
+  .container-grid ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 425px) {
+  .container-grid ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 767px) {
   ul .booking-card::before {
     background: rgba(10, 72, 112, 0.6);
   }
@@ -570,5 +598,26 @@ ul .booking-card:hover .informations-container .more-information {
   }
   ul .booking-card .informations-container .more-information {
     opacity: 1;
+  }
+  .container-grid ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1025px) {
+  
+}
+
+@media (min-width: 1440px) {
+  .container-grid ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
   }
 }
