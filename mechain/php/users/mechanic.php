@@ -163,36 +163,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
         <section class="artikel">
             <h2 class="section-title-inf" style="color:#f8f8f8 ;">REKOMENDASI ARTIKEL</h2>
             <ul>
-                <li class="booking-card"
-                    style="background-image: url(https://www.bfi.co.id/Blog/Blog%20New/11%20Cara%20Merawat%20Motor%20Matic%20Biar%20Awet%20Layaknya%20Motor%20Baru/cara_merawat_motor_matic.jpg);">
-                    <div class="book-container">
-                        <div class="content">
-                            <button class="btn"><a
-                                    href="https://www.bfi.co.id/id/blog/cara-merawat-motor-matic-biar-awet">Baca
-                                    Artikel</a></button>
-                        </div>
-                    </div>
-                    <div class="informations-container">
-                        <h2 class="title-inf">11 Cara Merawat Motor Matic Biar Awet Layaknya Motor Baru</h2>
-                        <p class="sub-title-inf">Admin BFI</p>
-                        <div class="more-information">
-                            <div class="info-and-date-container">
-                                <div class="box info">
-                                    <p>Baik Dibaca Untuk Para Pemilik Kendaraan Motor</p>
-                                </div>
-                                <div class="box date">
-                                    <p>19 December 2022</p>
-                                </div>
-                            </div>
-                            <p class="disclaimer">Indonesia adalah salah satu negara dengan populasi pengguna sepeda motor
-                                terbanyak. Dikutip dari website resmi Korlantas Polri, per 18 Desember 2022, pengguna motor
-                                di Indonesia sudah mencapai 152 juta dengan Jawa Timur sebagai provinsi dengan populasi
-                                motor terbanyak.
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="booking-card" style="background-image: url(../../img/artikel2.jpg);">
+                <li class="booking-card" style="background-image: url('https://www.suzukicdn.com/uploads/news/Nex_II_(1)2.jpg');">
                     <div class="book-container">
                         <div class="content">
                             <button class="btn"><a
