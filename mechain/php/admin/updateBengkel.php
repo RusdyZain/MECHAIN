@@ -9,6 +9,8 @@ session_start();
 <html lang="en">
 
 <head>
+    <title>Data Pendaftaran Bengkel</title>
+    <link rel="icon" type="image/x-icon" href="../../img/MechainLogo.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +25,6 @@ session_start();
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../../css/styleDashboard.css">
 
-    <title>Data Pendaftaran Bengkel</title>
 </head>
 
 <body>
@@ -76,8 +77,7 @@ session_start();
                 <form action="" method="POST" style="width:100%; min-width:300px; margin-bottom: 10px;" enctype="multipart/form-data">
                     <div class="row mb-3">
                         <label class="form-label">Nama Bengkel:</label>
-                        <input type="text" class="form-control" name="nama_bengkel"
-                            value="<?php echo $row['nama_bengkel'] ?>">
+                        <input type="text" class="form-control" name="nama_bengkel" value="<?php echo $row['nama_bengkel'] ?>">
                     </div>
 
                     <div class="row mb-3">

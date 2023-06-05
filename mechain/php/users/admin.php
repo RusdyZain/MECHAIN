@@ -134,6 +134,7 @@ session_start();
                                         <a style="width: 0px;" href="../config/deleteBengkel.php?id=<?php echo $row["id"] ?>" class="link-dark"><i class="fa-solid fa-trash"></i></a>
                                     </td>
                                 </tr>
+                                
                             <?php
                             }
                             ?>
