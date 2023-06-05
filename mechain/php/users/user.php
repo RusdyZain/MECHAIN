@@ -40,11 +40,12 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                                     <li><a href="http://localhost/mechain/php/fitur/artikel.php">Article</a></li>
                                     <li><a href="http://localhost/mechain/php/fitur/location.php">Location</a></li>
                                     <li><a href="http://localhost/mechain/php/users/user.php#contact">Contact</a></li>
-                                    <li style="padding-left: 30px;"><a>
-                                            <a href="../login/logout.php">
-                                                <?php echo $_SESSION['name']; ?>
-                                            </a>
-                                        </a></li>
+                                    <li style="padding-left: 30px;">
+                                        <form id="logoutForm" method="POST">
+                                            <a href="../login/logout.php" onclick="logout();"><?php echo $_SESSION['name']; ?></a>
+                                            <input type="hidden" name="logout">
+                                        </form>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

@@ -10,6 +10,13 @@ ul {
   list-style: none;
   padding: 0;
 }
+.container-grid ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
 table {
   border-collapse: collapse;
   border-spacing: 0;

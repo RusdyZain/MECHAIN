@@ -49,3 +49,9 @@ const swiper = new Swiper('.swiper1', {
         },
     },
 });
+
+function logout() {
+    if (confirm("Apakah Anda yakin ingin keluar?")) {
+      document.getElementById("logoutForm").submit();
+    }
+  }
