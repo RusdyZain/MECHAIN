@@ -20,7 +20,7 @@ p {
 .main-container > h2 {
   text-align: center;
   padding: 10px 0;
-  font-size: 32px;
+  font-size: 50px;
 }
 .main-container > p {
   font-weight: 300;
@@ -41,9 +41,10 @@ p {
   flex: 0 0 calc(16.6667% - 10px);
   display: flex;
   justify-content: center;
-  background: #a8a8a8;
+  background: #ffd34e;
   padding: 12px;
-  color: #fff;
+  color: #000;
+  font-weight: bold;
   margin: 5px;
   cursor: pointer;
   transition: all 0.4s ease;

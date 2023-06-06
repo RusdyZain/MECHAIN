@@ -10,7 +10,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
     <head>
         <title>Dashboard Mechanic</title>
         <link rel="icon" type="image/x-icon" href="../../img/MechainLogo.png">
-        
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300|Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
@@ -236,6 +236,29 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                             </div>
                             <p class="disclaimer">Bagaimana cara mengatasi motor tidak bisa hidup walaupun sudah distarter
                                 berkali-kali? Tenang, mungkin Anda bisa mengecek dulu di mana persoalannya. </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="booking-card" style="background-image: url(https://ruber.id/wp-content/uploads/2023/04/Coolant-Motor-Pentingnya-Mengenal-Cairan-768x432.jpg);">
+                    <div class="book-container">
+                        <div class="content">
+                            <button class="btn"><a href="https://ruber.id/coolant-motor-pentingnya-mengenal-cairan-pendingin-pada-kendaraan/">Baca
+                                    Artikel</a></button>
+                        </div>
+                    </div>
+                    <div class="informations-container">
+                        <h2 class="title-inf">Coolant Motor, Pentingnya Mengenal Cairan Pendingin pada Kendaraan</h2>
+                        <p class="sub-title-inf">Ruber.ID</p>
+                        <div class="more-information">
+                            <div class="info-and-date-container">
+                                <div class="box info">
+                                    <p>Penting untuk menambah wawasan tentang keadaan motor</p>
+                                </div>
+                                <div class="box date">
+                                    <p>07 April 2023</p>
+                                </div>
+                            </div>
+                            <p class="disclaimer">Ketika Anda mengendarai sepeda motor, salah satu komponen penting yang harus Anda perhatikan adalah sistem pendingin mesin, atau Coolant (Cairan pendingin). </p>
                         </div>
                     </div>
                 </li>
