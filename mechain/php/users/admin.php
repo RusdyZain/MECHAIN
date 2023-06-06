@@ -37,7 +37,7 @@ session_start();
                         <span class="nav-item"><?php echo $huruf_pertama; ?></span>
                     </a></li>
                 <li><a href="http://localhost/mechain/php/users/admin.php">
-                        <i class="fas fa-menorah"></i>
+                        <i class="fas fa-menorah" ></i>
                         <span class="nav-item">Dashboard</span>
                     </a></li>
                 <li><a href="http://localhost/mechain/php/admin/repair.php">
@@ -63,7 +63,6 @@ session_start();
         <section class="main">
             <div class="main-top">
                 <h1>Dashboard</h1>
-                <i class="fas fa-user-cog"></i>
             </div>
             <div class="user-grid">
                 <div class="user-box">

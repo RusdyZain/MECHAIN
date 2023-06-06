@@ -45,6 +45,6 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
     }
 
 } else {
-    header("Location: ../users/mechanic.php");
+    header("Location: ../login/bengkel.php");
     exit();
 }

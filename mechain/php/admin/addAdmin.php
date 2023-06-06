@@ -18,6 +18,8 @@ session_start();
     <link rel="stylesheet" href="../../css/styleDashboard.css">
 
     <title>Add Admin</title>
+    <link rel="icon" type="image/x-icon" href="../../img/MechainLogo.png">
+
 </head>
 
 <body>
@@ -75,8 +77,8 @@ session_start();
                         <input type="password" class="form-control" name="password" placeholder="password..."">
                     </div>
 
-                    <button type="submit" class="btn btn-success" name="submit">Submit</button>
-                    <a href="../users/admin.php" class="btn btn-danger">Cancel</a>
+                    <button type=" submit" class="btn btn-success" name="submit">Submit</button>
+                        <a href="../users/admin.php" class="btn btn-danger">Cancel</a>
                 </form>
             </div>
         </section>

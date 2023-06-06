@@ -9,7 +9,7 @@ session_start();
 <html lang="en">
 
 <head>
-    <title>Data Pendaftaran Bengkel</title>
+    <title>Update Bengkel</title>
     <link rel="icon" type="image/x-icon" href="../../img/MechainLogo.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

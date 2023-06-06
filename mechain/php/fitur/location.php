@@ -110,16 +110,6 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) { ?>
             </div>
         </footer>
         <!--/footer-->
-
-        <!--Script-->
-        <script src="../../js/jquery.min.js"></script>
-        <script src="../../js/jquery.easing.min.js"></script>
-        <script src="../../js/bootstrap.min.js"></script>
-        <script src="../../js/wow.js"></script>
-        <script src="../../js/custom.js"></script>
-        <script defer src="../../js/reveal.js"></script>
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     </body>
 
     </html>

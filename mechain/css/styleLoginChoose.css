@@ -3,11 +3,13 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  width: auto;
 }
 
 body {
-  background: url(../img/banner.jpg) no-repeat;
-  background-size: auto;
+  background: url(../img/banner.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   margin-top: 30px;
 }
 section {
@@ -64,6 +66,10 @@ h3 {
   color: #191919;
   text-decoration: none;
 }
+.card a:hover{
+  color: #191919;
+  text-decoration: none;
+}
 p {
   color: #191919;
   font-size: 15px;
@@ -94,18 +100,24 @@ p {
   color: #191919;
   font-weight: bold;
   font-size: 30px;
-  text-decoration: underline #191919;
+  text-decoration: none;
   transition: 0.5s;
   transform: scale(1, 1);
 }
-h3 a:hover {
+.card h3:hover {
   color: #ffffff;
-  text-decoration: underline #ffd34e;
+  text-decoration: none;
 }
 .card:hover p {
   color: #191919;
   font-weight: bold;
   transition: 0.5s;
+}
+.row img{
+  width: 100px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 30px;
 }
 @media (min-width: 768px) {
   section {
@@ -116,9 +128,10 @@ h3 a:hover {
     max-width: 50%;
   }
 }
+
 @media (min-width: 992px) {
   section {
-    padding: 1em 3em;
+    margin-bottom: 59px;
   }
   .column {
     flex: 0 0 33.33%;

@@ -194,20 +194,6 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) { ?>
             <div id="preloader">
                 <div id="loader"></div>
             </div>
-
-            <script src="../../js/jquery-2.1.3.min.js"></script>
-            <script src="../../js/plugins.js"></script>
-            <script src="../../js/jquery.appear.js"></script>
-            <script src="../../js/main.js"></script>
-            <script src="../../js/modernizr.js"></script>
-            <script src="../../js/pace.min.js"></script>
-
-            <!--Script-->
-            <script src="../../js/jquery.min.js"></script>
-            <script src="../../js/jquery.easing.min.js"></script>
-            <script src="../../js/bootstrap.min.js"></script>
-            <script src="../../js/wow.js"></script>
-            <script src="../../js/custom.js"></script>
     </body>
 
     </html>

@@ -7,6 +7,9 @@ include "../conn_db/db_conn.php";
 <html lang="en">
 
 <head>
+    <title>Dashboard Artikel</title>
+    <link rel="icon" type="image/x-icon" href="../../img/MechainLogo.png">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +19,6 @@ include "../conn_db/db_conn.php";
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
-    <title>Data Pendaftaran Artikel</title>
 </head>
 
 <body>
@@ -56,7 +58,6 @@ include "../conn_db/db_conn.php";
         <section class="main">
             <div class="main-top">
                 <h1>Repair List</h1>
-                <i class="fas fa-user-cog"></i>
             </div>
             <section class="attendance">
                 <div class="attendance-list">

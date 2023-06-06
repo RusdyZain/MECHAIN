@@ -71,15 +71,15 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
             </div>
             <div class="category-title" id="Sepeda">
               <li>Sepeda</li>
-              <span><i class="fas fa-theater-masks"></i></span>
+              <span><i class="fas fa-solid fa-bicycle"></i></span>
             </div>
             <div class="category-title" id="Motor">
               <li>Motor</li>
-              <span><i class="fas fa-theater-masks"></i></span>
+              <span><i class="fas fa-solid fa-motorcycle"></i></span>
             </div>
             <div class="category-title" id="Mobil">
               <li>Mobil</li>
-              <span><i class="fas fa-landmark"></i></span>
+              <span><i class="fas fa-duotone fa-car"></i></span>
             </div>
             <div class="category-title"></div>
           </ul>
@@ -103,7 +103,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                   <h2><?php echo $row['judul'] ?></h2>
                   <p><?php echo $row['deskripsi'] ?></p>
                 </div>
-                <button type="button" class="read-btn"><a href="<?php echo $row['link'] ?>">Read All</a></button>
+                <button type="button" class="read-btn"><a href="<?php echo $row['link'] ?>">View</a></button>
               </div>
               <!-- end of single post -->
             <?php
@@ -115,11 +115,6 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
     </div>
 
     <!--Script-->
-    <script src="../../js/jquery.min.js"></script>
-    <script src="../../js/jquery.easing.min.js"></script>
-    <script src="../../js/bootstrap.min.js"></script>
-    <script src="../../js/wow.js"></script>
-    <script src="../../js/custom.js"></script>
     <script src="../../js/repair.js"></script>
     <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
   </body>

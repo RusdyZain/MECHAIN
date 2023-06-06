@@ -255,6 +255,7 @@ table thead tr {
 .add:hover {
   background-color: #eee;
   color: #383030;
+  transition: 0.5s;
 }
 
 nav ul {

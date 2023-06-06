@@ -25,7 +25,6 @@
                 <?php } ?>
                 <input class="form__input" type="text" name="email" placeholder="Email">
                 <input class="form__input" type="password" name="password" placeholder="Password">
-                <a class="form__link" href="">Forgot your password?</a>
 
                 <button type="submit" class="form__button button">SIGN IN</button>
             </form>

@@ -58,7 +58,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                         <h2 class="top-title">REPAIR SHOP MOBILE</h2>
                         <h3 class="title">MECHAIN</h3>
                         <h4 class="sub-title">Get Your Repair Anywhere</h4>
-                        <button type="submit" class="btn btn-submit"><a href="http://localhost/mechain/php/fitur/repair.php" style="color: #000; text-decoration: none;">Get Repair</a></button>
+                        <button type="submit" class="btn btn-submit"><a href="http://localhost/mechain/php/fiturMechanic/registBengkel.php" style="color: #000; text-decoration: none;">Daftar</a></button>
                     </div>
                 </div>
             </div>

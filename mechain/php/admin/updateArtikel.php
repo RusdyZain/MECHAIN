@@ -23,7 +23,9 @@ session_start();
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../../css/styleDashboard.css">
 
-    <title>Data Pendaftaran Bengkel</title>
+    <title>Update Artike</title>
+    <link rel="icon" type="image/x-icon" href="../../img/MechainLogo.png">
+
 </head>
 
 <body>
